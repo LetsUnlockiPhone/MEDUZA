@@ -13,7 +13,7 @@ It's simple. First time, you run an app without sniffing and use it as usual. ME
 
 ## Limitations
 
-MEDUZA can unpin only apps using iOS system SSL libs. Some apps (e.g. Instagram) do not use the system SSL libs, they implement some third-party custom SSL stack (for example, Instagram uses OpenSSL statically linked to one of Instagram private frameworks).
+MEDUZA can only unpin apps using iOS system SSL libs. Some apps (e.g. Instagram) do not use the system SSL libs, they implement some third-party custom SSL stack (for example, Instagram uses OpenSSL statically linked to one of Instagram private frameworks).
 
 ## Requirements
 
