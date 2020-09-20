@@ -27,6 +27,8 @@ MEDUZA can only unpin apps using iOS system SSL libs. Some apps (e.g. Instagram)
 
 - The Mac and iOS device should be connected with a USB data cable and connected to the same WiFi network.
 
+- Python 3 with [cryptography](https://pypi.org/project/cryptography/) on the Mac (just `pip install cryptography`)
+
 ## How to sniff HTTP(s) traffic?
 
 There are two general steps. You need the first step to catch all certificates pinned by an app and generate a script to fake (==unpin) them. You should do it just once at the very beginning, then you can just use the generated script to sniff the traffic. The instruction for the first step:
