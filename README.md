@@ -65,7 +65,7 @@ There are two general steps. You need the first step to catch all certificates p
     	<...etc, you'll see remaining apps here...>
     ```
 
-2. **Important!** Make sure your iOS device WiFi settings are "clear", e.g. no proxy and/or custom router IP specified. On the first step, we **do not try to sniff the traffic**, so the network connecting should be "as usual".
+2. **Important!** Make sure your iOS device WiFi settings are "clear", e.g. no proxy and/or custom router IP specified. On the first step, we **do not try to sniff the traffic**, so the WiFi network connection should be "as usual".
 
 3. Choose the app, e.g. Uber. Run MEDUZA as follows
 
