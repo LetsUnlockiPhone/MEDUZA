@@ -123,7 +123,7 @@ There are two general steps. You need the first step to catch all certificates p
     	cfe.uber.com
     	cn-dca1.cfe.uber.com
     [*] Got another certificate, its raw SHA256 hash: eae72eb454bf6c3977ebd289e970b2f5282949190093d0d26f98d0f0d6a9cf17
-    <...etc, you can see a lot messages about certificates, it's ok...>
+    <...etc, you can see many messages about certificates, it's ok...>
     ```
 
 4. Do something typical in the app: login, tap some buttons, logoff... e.g. act like an ordinary dumb user :) Every time the app uses a (pinned or not pinned) certificate to connect a server, MEDUZA catches and remembers the certificate.
