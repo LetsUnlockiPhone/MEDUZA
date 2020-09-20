@@ -79,7 +79,7 @@ There are two general steps. You need the first step to catch all certificates p
     $ python3 meduza.py -s com.ubercab.UberClient ./unpinUber.js
     ```
 
-    Here `-s` means that Uber will be (re-)spawned. If you wanna connect to already running app and do not re-spawn it, use `-a` instead of `-s`.
+    Here `-s` means that Uber will be (re-)spawned. If you wanna connect to an already running app and do not re-spawn it, use `-a` instead of `-s`.
 
     As result, you should see something like
 
