@@ -138,7 +138,7 @@ The first step is completed. The second step is to use the script:
 
 3. On your iOS device, set the Mac's IP and mitmproxy port (`8080` by default) as a proxy for the WiFi connection.
 
-4. Run the generated script. E.g. to (re-)spawn Uber app, run in Mac Terminal
+4. Run the generated script with the app. E.g. to (re-)spawn and unpin Uber app, run in Mac Terminal
 
     ```
     $ frida -U -f com.ubercab.UberClient --no-pause -l ./unpinUber.js
