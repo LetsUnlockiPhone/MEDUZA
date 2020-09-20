@@ -11,7 +11,7 @@ It's my replacement for SSLKillSwitch. I created it for in-house use, but then d
 
 It's simple. First time, you run an app without sniffing and use it as usual. MEDUZA is sitting quietly and collecting certificates used by the app to connect servers. Then MEDUZA generates a Frida script that fakes (==upnin) the collected certificates. So you run the app for second time, use the generated script, and catch the traffic with mitmproxy.
 
-## Limitation
+## Limitations
 
 MEDUZA can unpin only apps using iOS system SSL libs. Some apps (e.g. Instagram) do not use the system SSL libs, they implement some third-party custom SSL stack (for example, Instagram uses OpenSSL statically linked to one of Instagram private frameworks).
 
